@@ -55,7 +55,7 @@ class sampleLicenseHandler extends TransactionHandler {
             if (!time_period) {
                 throw new InvalidTransaction('Time period is required')
             }                                     
-            console.log('Customer ID: '+ id +'\n Product: '+ product +'\n Version' + version + '\n Overwrite?' + overwrite + '\n Stackable?' + stackable + '\n Phone home?' + phone_home + '\n Time Period:' + time_period)
+            console.log('Customer ID: '+ id +'\n Product: '+ product +'\n Version ' + version + '\n Overwrite? ' + overwrite + '\n Stackable? ' + stackable + '\n Phone home? ' + phone_home + '\n Time Period: ' + time_period)
         })
     }
 }
